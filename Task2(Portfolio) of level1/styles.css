@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Lato:ital,wght@1,700&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(252, 239, 224);
+    color: rgb(40, 138, 177);
+    /*font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(255, 228, 196);
+    box-shadow: 0px 10px 15px rgb(165, 41, 41);
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    /*font-size: 17px;*/
+    float: left;
+    color: rgb(40, 138, 177);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    border-bottom: 3px solid blueviolet;
+}
+
+.left {
+    text-align: left;
+    margin-left: 0;
+    font-size: 22px;
+    /*background-color:rgb(40, 138, 177);*/
+}
+
+.right {
+    text-align: right;
+    font-size: 17px;
+}
+
+#about {
+    margin-top: 7%;
+    display: flex;
+    color: #000;
+}
+
+.contr {
+    margin: auto;
+    width: 100%;
+}
+
+.contl {
+    margin: auto;
+    padding: 8%;
+    font-size: 24px;
+
+}
+
+.clr {
+    /*background-color: #FBAB7E;
+    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);*/
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.btn {
+    background: #4158D0;
+    background-image: -webkit-linear-gradient(top, #4158D0, #ff70fd);
+    background-image: -moz-linear-gradient(top, #4158D0, #ff70fd);
+    background-image: -ms-linear-gradient(top, #4158D0, #ff70fd);
+    background-image: -o-linear-gradient(top, #4158D0, #ff70fd);
+    background-image: linear-gradient(to bottom, #4158D0, #ff70fd);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+
+.img {
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#edu {
+    /*background-color: #C850C0;*/
+    text-align: center;
+    margin-top: 10px;
+}
+.E {
+    margin-bottom: 25px;
+}
+
+.educ {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-bottom: 15px;
+
+}
+
+td {
+    padding: 10px 100px;
+    /* Adjust the value to set your desired margin */
+    /* border: 1px solid #ccc; */
+    /* Optional: Add borders to cells for better visualization */
+}
+#skil{
+    padding: 5%;
+    margin-top: 25px;
+    
+}
+.S{
+    margin-left: 20%;
+}
+.skills{
+    margin-top: 35px;
+    display: flex;
+}
+/* .Skilimg{
+    justify-content: center;
+    margin-bottom: 2000px;
+
+} */
